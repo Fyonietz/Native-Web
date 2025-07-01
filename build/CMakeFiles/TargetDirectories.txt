@@ -1,0 +1,3 @@
+/d/Repo/Native-Web/build/CMakeFiles/NWeb.dir
+/d/Repo/Native-Web/build/CMakeFiles/edit_cache.dir
+/d/Repo/Native-Web/build/CMakeFiles/rebuild_cache.dir
