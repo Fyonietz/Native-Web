@@ -16,3 +16,6 @@ FetchContent_MakeAvailable(webview)
 add_executable(${CMAKE_PROJECT_NAME})
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE "src/main.cpp")
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE webview::core comctl32)
+
+# Add this line to remove the console window
+set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES WIN32_EXECUTABLE TRUE)

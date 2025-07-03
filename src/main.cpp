@@ -1,4 +1,3 @@
-
 #define WEBVIEW_IMPLEMENTATION
 #include "webview.h"
 #include <windows.h>
@@ -72,4 +71,8 @@ int main() {
     webview_run(w);
     webview_destroy(w);
     return 0;
+}
+
+int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
+    return main();
 }
