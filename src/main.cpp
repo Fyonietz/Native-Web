@@ -52,7 +52,7 @@ int main() {
     webview_set_title(w, name.c_str());
     webview_set_size(w, 1024, 768, WEBVIEW_HINT_NONE);
     webview_navigate(w, server.c_str());
-   // ⚠️ Sleep a little to ensure the window is created
+   
     Sleep(100);
 
     // Get the native window handle
